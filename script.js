@@ -13,9 +13,9 @@ var selector = document.getElementById("selector");
 
 generateButton.onclick = () => {
     if (selector.selectedIndex === 0) {
-        var url = "https://api-footapi.hugo.rest/clubs/random/ligue-1";
+        var url = "https://api.footapi.cf/clubs/random/ligue-1";
     } else if (selector.selectedIndex === 1) {
-        var url = "https://api-footapi.hugo.rest/clubs/random/premier-league";
+        var url = "https://api.footapi.cf/clubs/random/premier-league";
     }
     club1.style.display = "block";
     club2.style.display = "block";

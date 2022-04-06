@@ -16,6 +16,8 @@ generateButton.onclick = () => {
         var url = "https://api.footapi.cf/clubs/random/ligue-1";
     } else if (selector.selectedIndex === 1) {
         var url = "https://api.footapi.cf/clubs/random/premier-league";
+    } else if (selector.selectedIndex === 2) {
+        var url = "https://api.footapi.cf/clubs/random/la-liga";
     }
     club1.style.display = "block";
     club2.style.display = "block";
